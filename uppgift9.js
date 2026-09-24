@@ -10,7 +10,7 @@ const people = [
 
 //Funktion som skriver ut personens namn och stad
 function printPerson(person) {
-    console.log(person.name + "bor i" + person.city);
+    console.log(person.name + " bor i " + person.city);
 }
 
 //Går igenom alla personer i arrayen
