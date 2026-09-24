@@ -8,3 +8,12 @@ const book = {
     year: 1997
 };
 
+//Funktion som skriver ut information om boken
+function printBookInfo(book) {
+    console.log("Titel:", book.title);
+    console.log("Författare", book.author);
+    console.log("År:", book.year);
+}
+
+//Anropar funtkionen
+printBookInfo(book);
