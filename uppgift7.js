@@ -9,6 +9,7 @@ function calculateSum(numbers) {
     let sum = 0;
 
     for (let number of numbers) {
+        sum+= number;
     }
     return sum;
 }
@@ -16,6 +17,8 @@ function calculateSum(numbers) {
 //Anropar funktionen
 const result = calculateSum(numbers);
 
+//Skriver ut resultatet
+console.log("Summan av talen:", result);
 
 
 
